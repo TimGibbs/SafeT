@@ -2,6 +2,13 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageId>SafeT.Transforms</PackageId>
+    <Version>0.0.1</Version>
+    <Authors>Tim Gibbs</Authors>
+    <PackageProjectUrl>https://github.com/TimGibbs/SafeT</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/TimGibbs/SafeT.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
   </PropertyGroup>
 
   <ItemGroup>
