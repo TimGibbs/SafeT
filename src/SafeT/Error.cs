@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Safe
+namespace SafeT
 {
     public class Error
     {

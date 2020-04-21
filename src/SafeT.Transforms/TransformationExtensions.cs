@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Threading.Tasks;
 
-namespace Safe.Transforms
+namespace SafeT.Transforms
 {
     public static class TransformationExtensions
     {

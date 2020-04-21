@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-namespace Safe.Http
+namespace SafeT.Http
 {
     public static class ErrorResponseHelper
     {

@@ -1,9 +1,9 @@
 using FluentAssertions;
-using Safe.Transforms;
 using System;
 using System.Threading.Tasks;
+using SafeT;
+using SafeT.Transforms;
 using Xunit;
-using Safe;
 
 namespace Test
 {

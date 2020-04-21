@@ -1,4 +1,4 @@
-﻿namespace Safe
+﻿namespace SafeT
 {
     public struct Safe<T>
     {

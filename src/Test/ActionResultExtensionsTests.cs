@@ -1,9 +1,9 @@
-using Safe.Http;
-using Safe;
+using SafeT;
 using System.Net;
 using System.Threading.Tasks;
 using FluentAssertions;
 using Microsoft.AspNetCore.Mvc;
+using SafeT.Http;
 using Xunit;
 
 namespace Test

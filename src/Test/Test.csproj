@@ -15,9 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Safe.Http\Safe.Http.csproj" />
-    <ProjectReference Include="..\Safe.Transforms\Safe.Transforms.csproj" />
-    <ProjectReference Include="..\Safe\Safe.csproj" />
+    <ProjectReference Include="..\SafeT.Http\SafeT.Http.csproj" />
+    <ProjectReference Include="..\SafeT.Transforms\SafeT.Transforms.csproj" />
+    <ProjectReference Include="..\SafeT\SafeT.csproj" />
   </ItemGroup>
 
 </Project>

@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Safe
+namespace SafeT
 {
     public static class CombinationExtensions
     {

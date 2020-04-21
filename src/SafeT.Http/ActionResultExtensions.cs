@@ -2,7 +2,7 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Safe.Http
+namespace SafeT.Http
 {
     public static class ActionResultExtensions
     {

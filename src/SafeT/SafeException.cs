@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Safe
+namespace SafeT
 {
     public class SafeException<T> : Exception
     {

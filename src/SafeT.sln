@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29102.190
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Safe", "Safe\Safe.csproj", "{3E075912-BB16-4082-9E4B-185ACE4BA5B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeT", "SafeT\SafeT.csproj", "{3E075912-BB16-4082-9E4B-185ACE4BA5B5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safe.Transforms", "Safe.Transforms\Safe.Transforms.csproj", "{40870B06-87F2-4483-B431-023B35C9FF9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeT.Transforms", "SafeT.Transforms\SafeT.Transforms.csproj", "{40870B06-87F2-4483-B431-023B35C9FF9B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Safe.Http", "Safe.Http\Safe.Http.csproj", "{997BF904-0507-4C0D-ADA4-B7C07DE9E1BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SafeT.Http", "SafeT.Http\SafeT.Http.csproj", "{997BF904-0507-4C0D-ADA4-B7C07DE9E1BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{CCED6BCA-812F-47FF-A72E-C3E292AE6820}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{CCED6BCA-812F-47FF-A72E-C3E292AE6820}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

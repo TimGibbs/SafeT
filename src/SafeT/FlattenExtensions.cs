@@ -1,6 +1,6 @@
 ﻿using System.Threading.Tasks;
 
-namespace Safe
+namespace SafeT
 {
     public static class FlattenExtensions
     {
