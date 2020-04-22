@@ -234,6 +234,15 @@ namespace SafeT.Http
             return FailedDependency(message, content, offenders);
         }
 
+        public static Error TooEarly(string message, object content = null, params object[] offenders)
+        {
+            return new Error() { StatusCode = 425, Message = message, Content = content, Offenders = offenders };
+        }
+
+        public static Safe<T> TooEarly<T>(string message, object content = null, params object[] offenders)
+        {
+            return TooEarly(message, content, offenders);
+        }
         public static Error UpgradeRequired(string message, object content = null, params object[] offenders)
         {
             return new Error() { StatusCode = (int)HttpStatusCode.UpgradeRequired, Message = message, Content = content, Offenders = offenders };
