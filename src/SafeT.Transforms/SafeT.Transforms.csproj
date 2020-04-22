@@ -9,10 +9,18 @@
     <PackageProjectUrl>https://github.com/TimGibbs/SafeT</PackageProjectUrl>
     <RepositoryUrl>https://github.com/TimGibbs/SafeT.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
   </PropertyGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SafeT\SafeT.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
